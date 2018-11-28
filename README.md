@@ -1,4 +1,4 @@
-# Pose Comparator
+# Pose Comparer
 
 ## Installation
 
