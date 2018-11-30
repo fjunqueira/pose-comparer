@@ -36,8 +36,8 @@ def main():
     print("   Frame Points: \n{}".format(frame_points))
     print("Template Points: \n{}".format(template_points))
 
-    print("   Frame Vectors: \n{}".format(frame_points))
-    print("Template Vectors: \n{}".format(template_points))
+    print("   Frame Vectors: \n{}".format(frame_vectors))
+    print("Template Vectors: \n{}".format(template_vectors))
 
     print("Comparison Result: {}".format([(r, p) for r, p in zip(comparison_result, pose_pairs)]))
 
