@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Download one of the following pretrained openpose networks:
+1. Download one of the following pretrained openpose models:
     - COCO:
         - http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/pose_iter_440000.caffemodel
         - https://raw.githubusercontent.com/opencv/opencv_extra/master/testdata/dnn/openpose_pose_coco.prototxt
