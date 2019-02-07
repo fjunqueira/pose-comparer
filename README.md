@@ -36,7 +36,7 @@ python desktop.py --model ../models/pose_iter_440000.caffemodel --proto ../model
 Comparison Result: [(0.9590177080589004, ['Neck', 'RShoulder']), (0.9550641368112371, ['Neck', 'LShoulder']), (0.9942131485173553, ['RShoulder', 'RElbow']), (0.9227181254350099, ['RElbow', 'RWrist']), (0.9178385863657164, ['LShoulder', 'LElbow']), (None, ['LElbow', 'LWrist']), (0.9036583588082726, ['Neck', 'RHip']), (0.9979523745279008, ['RHip', 'RKnee']), (0.6186889309822976, ['RKnee', 'RAnkle']), (0.9309666110041757, ['Neck', 'LHip']), (0.8557118698254541, ['LHip', 'LKnee']), (0.9083627223985159, ['LKnee', 'LAnkle']), (0.9892988574946624, ['Neck', 'Nose'])]
 ```
 
+**The comparison result gives a value between -1 and 1 specifying how similar a part of the pose is between the two images.**
+
 ![pic1](https://github.com/fjunqueira/pose-comparator/blob/master/samples/pic1.png)
 ![pic2](https://github.com/fjunqueira/pose-comparator/blob/master/samples/pic2.png)
-
-**The comparison result gives a value between -1 and 1 specifying how similar a part of the pose is between the two images.**
